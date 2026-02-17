@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY_HERE";   // replace this
+const apiKey = "3a49f9c378d44bb18f70a2248b936a82";  // replace this
 
 const cityEl = document.getElementById("city");
 const tempEl = document.getElementById("temp");
