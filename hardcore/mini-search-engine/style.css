@@ -1,0 +1,44 @@
+body{
+  background:#020617;
+  color:white;
+  font-family:Segoe UI, sans-serif;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:30px;
+}
+
+input{
+  width:70%;
+  max-width:600px;
+  padding:14px;
+  border-radius:10px;
+  border:none;
+  font-size:16px;
+  margin:20px 0;
+}
+
+#results{
+  width:70%;
+  max-width:700px;
+}
+
+.result{
+  background:#0f172a;
+  margin-bottom:12px;
+  padding:15px;
+  border-radius:12px;
+  animation:fade 0.3s ease;
+}
+
+@keyframes fade{
+  from{opacity:0; transform:translateY(5px)}
+  to{opacity:1; transform:translateY(0)}
+}
+
+mark{
+  background:#22c55e;
+  color:black;
+  padding:2px 4px;
+  border-radius:4px;
+}
