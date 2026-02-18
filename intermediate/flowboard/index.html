@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlowBoard – Smart Kanban</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>⚡ FlowBoard</h1>
+  <input id="taskInput" placeholder="Type task and press Enter...">
+</header>
+
+<section class="board">
+
+  <div class="column" data-status="todo">
+    <h2>TODO</h2>
+    <div class="list"></div>
+  </div>
+
+  <div class="column" data-status="doing">
+    <h2>DOING</h2>
+    <div class="list"></div>
+  </div>
+
+  <div class="column" data-status="done">
+    <h2>DONE</h2>
+    <div class="list"></div>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
